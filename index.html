@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Muttertagskarte</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+
+<body>
+  <img
+    id="owl"
+    src="owl.png"
+    alt="owl" />
+  <img 
+    id="owl-with-letter"
+    src="owl+letter.png"
+    alt="owl with letter" />
+  <img 
+    id="closed-letter" 
+    src="closed-letter.png"     
+    onclick="openLetter()"
+    alt="closed letter" />
+  <img 
+    id="open-letter" 
+    src="open-letter.png" 
+    alt="opened letter" />
+  
+  <div id="full-letter-modal" class="modal hidden">
+  <div class="modal-overlay"></div>
+  <div class="letter-content">
+    <div class="letter-scroll">
+      <p>
+        Lieber Homer,<br><br>
+        ich hoffe, dieser Brief findet dich rechtzeitig (die Eule macht oft ausladende Zwischenstopps bei McDonald's). 
+        Falls sie etwas Gemeines sagt, tut es mir leid. Ich will, sie schon lange ersetzen, aber eine neue sprengt aktuell
+        mein Budget.<br><br>
+        Wahrscheinlich wäre es angemessener gewesen, dir ein tatsächliches Geschenk zu besorgen (oder zumindest 
+        einen physischen Brief!), aber ich bin deutsch und ökonomisch und ich schlage gerne zwei Fliegen mit einer Klappe.<br><br>
+        Oder so.<br><br>
+        Was soll ich sagen? Bis ich mich mehrere 100.000 Kilometer auf die Reise zurück mache, ist es wohl gar nicht mehr so lang. 
+        Zwischen Bambus und Brötchen - zwischen Brötchen und Bambus. Wahrscheinlich bin ich mit dir am Telefon, wenn du dies das erste 
+        Mal liest - weil ich übermäßig zufrieden mit mir selbst bin - und das gibt allem, was ich hier schreiben könnte, einen leicht 
+        seltsamen Hauch ... nicht wahr?<br><br>
+        Nun ja, es wird langsam Zeit für Business. Lass mich schnell alles abhaken, was in einem Muttertagsbrief wichtig ist: 
+        Du bist die tollste Mama der Welt. Ich vermisse dich ja so sehr. Ich kann es kaum erwarten, dich wieder in die Arme zu schließen. 
+        Und natürlich wünsche ich dir auch noch ganz, ganz wundervoll viel Gesundheit und Geld und ewige Jugend and a man after midnight 
+        (won't somebody help me chase the shadows away!).<br><br>
+        Ich wünsche dir viel Spaß auf eurem "Wandertrip" - sei glücklich, aber nicht glücklicher als du mit mir alleine wärst.<br><br>
+        Hab' dich lieb.<br><br>
+        Deine famose Tochter Tina<br><br>
+        PS: Für jeden Schreibfehler, den du findest, steht dir ein Wunsch frei 
+        (in der Erstellung dieser Applikation wurde kein Rechtschreibprogramm verwendet).
+      </p>
+    </div>
+    <button id="close-letter-button">Schließen</button>
+  </div>
+</div>
+  
+  <div class="dialogue-box" id="dialogue-box">
+  <p id="dialogue-text"></p>
+</div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
