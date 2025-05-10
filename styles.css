@@ -20,18 +20,20 @@ body {
 }
 
 .container {
-  width: 1620px;
-  height: 810px;
+  width: 100%;
+  max-width: 1620px;
+  aspect-ratio: 2 / 1; /* roughly 1620:810 */
+  position: relative;
   background-image: url('background-study.gif');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  position: relative;
 }
 
 img {
   display: block;
-  width: 300px; /* or adjust as needed */
+  width: 18vw;
+  max-width: 300px;
   margin: 30 auto;
   filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8));
 }
@@ -64,7 +66,7 @@ img {
   background: rgba(0, 0, 0, 0.6); /* semi-transparent black */
   color: white;
   font-family: 'Courier New', monospace;
-  font-size: 30px;
+  font-size: 2.5vw;
   box-sizing: border-box;
   border-top: 2px solid #ccc;
   overflow: hidden;
