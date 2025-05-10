@@ -32,9 +32,9 @@ body {
 
 img {
   display: block;
-  width: 18vw;
+  width: 30vw;
   max-width: 300px;
-  margin: 30 auto;
+  margin: 10em auto;
   filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8));
 }
 
@@ -63,7 +63,7 @@ img {
   width: 100%;
   max-height: 150px;
   height: 5em;
-  padding: 20px;
+  padding: 2em;
   background: rgba(0, 0, 0, 0.6); /* semi-transparent black */
   color: white;
   font-family: 'Courier New', monospace;
